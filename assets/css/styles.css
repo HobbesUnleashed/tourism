@@ -1,0 +1,367 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+}
+
+/* ---------- Navbar ---------- */
+
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.navbar {
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #9A9C8F;
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+    margin: auto;
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #16423C;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active:focus,
+.navbar-light .navbar-nav .active .nav-link {
+    color: #fff;
+}
+
+/*
+.dropdown-item {
+    color: red;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:active:focus,
+.dropdown-item.active {
+    color: grey;
+    background-color: white;
+}
+*/
+
+/* ---------- Buttons ---------- */
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 15px;
+    width: 160px;
+}
+
+.btn--grey {
+    color: white;
+    background-color: #16423C;
+    border-color: #16423C;
+}
+
+.btn--white {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.btn--grey:hover,
+.btn--grey:active,
+.btn--grey:focus,
+.btn--grey:active:focus {
+    background-color: #16423C;
+    border-color: #16423C;
+    color: white;
+}
+
+.btn-gap {
+    width: 100px;
+    height: 100px;
+}
+
+/* ---------- Modal ---------- */
+
+.modal-body {
+    background-color: #fafafa;
+}
+
+.membershipDeets {
+    color: red;
+}
+
+.datepicker table {
+    background-color: #f8f9fa;
+}
+.datepicker table tr td, .datepicker table tr th {
+    border-radius: 5px;
+    text-align: center;
+    color: #343a40;
+    width: 10%;
+}
+.datepicker table tr td.day:hover, .datepicker table tr td.day.focused {
+    background-color: #007bff;
+    color: #fff;
+}
+.datepicker table tr td.day.active {
+    background-color: #007bff;
+    color: #fff;
+}
+.datepicker table tr td.new, .datepicker table tr td.old {
+    color: #6c757d;
+}
+.datepicker table tr td.today {
+    background-color: red;
+    color: #fff;
+}
+
+.center-clubs {
+    margin: auto;
+}
+
+/* ---------- Containers ---------- */
+
+.callout-container{
+    height: 75vh;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    padding: 0;
+}
+
+.callout-container{
+    height: 90vh;
+    background: url('../images/Edinburgh\ skyline.webp') no-repeat center center fixed;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* ---------- Jumbotron ---------- */
+
+.jumbotron {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.jumbotron h1,
+.jumbotron h2 {
+    color: #9A9C8F;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.jumbotron .lead--white {
+    color: white;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* ---------- Page Header ---------- */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* ---------- Links ---------- */
+
+.sites a {
+    text-decoration: none;
+}
+
+/* ---------- Block Dividers ---------- */
+
+.block-divider {
+    width: 150px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--fg {
+    background-color: #16423C;
+}
+
+.block-divider--short {
+    width: 35px;
+    height: 2px;
+    border: 0;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: #9A9C8F;
+    color: #fafafa;
+    min-height: 80px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 7px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fafafa;
+    background: #16423C;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links .youtube a i:hover {
+    background-color: #FF0000;
+    color: rgba(0,0,0,.75);
+}
+
+.social-links .facebook a i:hover {
+    background-color: #0865FF;
+    color: rgba(0,0,0,.75);
+}
+
+.social-links .instagram a i:hover {
+    background-image: linear-gradient(45deg, #FCA008, #FA315E, #F21DC7);
+    color: rgba(0,0,0,.75);
+}
+
+.social-links .twitter a i:hover {
+    background-color: #1DA1F2;
+    color: rgba(0,0,0,.75);
+}
+
+.owner {
+    margin: auto;
+    text-align: center;
+}
+
+.owner small {
+    font-size: 12px;
+}
+
+/* ---------- Home body ---------- */
+
+#about,
+#testimonials {
+    padding: 45px 0;
+    margin: 0;
+}
+
+#about {
+    background-color: #16423C;
+    color: #fff;
+}
+
+#testimonials {
+    background-color: #C4DAD2;
+    color: #000;
+}
+
+.contactModals:hover,
+a,
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.other-services .row {
+    justify-content: center;
+}
+
+.contactModals {
+    width: 90%;
+    height: auto;
+    border: 0;
+}
+
+.col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* ---------- Media Queries ---------- */
+
+@media (min-width: 758px) {
+
+    .nav-logo {
+        height: 100px;
+        width:100px;
+        margin: auto;
+    }
+
+    .mobile-gap {
+        margin-bottom: 0;
+    }
+
+    .jumbotron h1,
+    .jumbotron h2 {
+        font-size: 2.5rem;
+    }
+}
